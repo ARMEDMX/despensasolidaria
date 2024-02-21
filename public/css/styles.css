@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.login-container{
+    background-color: darkgreen;
+}
+
+.register-container{
+    background-color: darkgreen;
+}
+
+.title{
+    color: white;
+    font-family: Fredoka;
+    font-size: 2em;
+}
+
+.copyright {
+    position: fixed; /* Fijar la posición */
+    bottom: 10px; /* Distancia desde el borde inferior */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ancho del elemento */
+    text-align: center; /* Alinear el texto al centro */
+    font-size: 14px; /* Tamaño de fuente */
+    color: #888; /* Color del texto */
+}
+
+#sidebar {
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+
+}
+
+#plantilla {
+    padding: 50px;
+    margin-left: 200px;
+    max-height: 100vh;
+    width: 86vw;
+    overflow-y: auto;
+    
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -2,9 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "prod": "laravel-mix --production"
+    "dev": "npx vite",
+    "build": "npx vite build"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.6",

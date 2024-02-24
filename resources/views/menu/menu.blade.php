@@ -12,6 +12,7 @@
 
     <div class="container-fluid">
         <div class="row">
+            
             <div id="sidebar" class="d-flex flex-column justify-content-between col-2 bg-dark min-vh-100">
                 <div class="mt-4">
 

@@ -25,21 +25,31 @@
 }
 
 #sidebar {
-    background-color: #333;
+    /* background-color: #333;
     color: #fff;
-    position: absolute;
-
+    position: absolute; */
+    border: 3px solid blue;
+    width: 200px; /* Ancho fijo para tu sidebar */
+    position: fixed; /* Posición fija */
+    height: 100%; /* Altura completa */
+    left: 0; /* Alineado a la izquierda */
 }
 
 #plantilla {
-    padding: 50px;
-    margin-left: 200px;
+    /* padding: 50px;
+    margin-left: auto;
     max-height: 100vh;
     width: 86vw;
     overflow-y: auto;
-    
-    
+     */
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    overflow-y: auto; 
+    border: 3px solid red;
+    padding: 25px;
+   
 }
+
 
 .logo{
     display: flex;
